@@ -13,10 +13,10 @@ const Skills = () => {
     { 
       name: 'React.js', 
       category: 'frontend', 
-      level: 'Expert', 
+      level: 'Beginner', 
       proficiency: 95, 
-      projects: 25, 
-      experience: '4+ years',
+       projects: 5, 
+      experience: '1+ years',
       featured: true,
       icon: '⚛️',
       description: 'Advanced React patterns, hooks, context, performance optimization, and modern architectural patterns'
@@ -24,10 +24,10 @@ const Skills = () => {
     { 
       name: 'TypeScript', 
       category: 'frontend', 
-      level: 'Expert', 
+      level: 'Beginner', 
       proficiency: 92, 
-      projects: 18,
-      experience: '3+ years',
+      // projects: 18,
+      experience: '1+ years',
       featured: true,
       icon: '📘',
       description: 'Advanced type systems, generics, utility types, and enterprise-level TypeScript architecture'
@@ -35,10 +35,10 @@ const Skills = () => {
     { 
       name: 'Next.js', 
       category: 'frontend', 
-      level: 'Advanced', 
+      level: 'Beginner', 
       proficiency: 88, 
-      projects: 12,
-      experience: '2+ years',
+       projects: 1,
+      experience: '1+ years',
       featured: true,
       icon: '▲',
       description: 'Full-stack React framework with SSR, SSG, API routes, and performance optimization'
@@ -46,20 +46,20 @@ const Skills = () => {
     { 
       name: 'Tailwind CSS', 
       category: 'frontend', 
-      level: 'Expert', 
+      level: 'Beginner', 
       proficiency: 96, 
-      projects: 30,
-      experience: '3+ years',
+      // projects: 30,
+      experience: '1+ years',
       icon: '🎨',
       description: 'Utility-first CSS framework mastery with custom design systems and component libraries'
     },
     { 
       name: 'Vue.js', 
       category: 'frontend', 
-      level: 'Advanced', 
+      level: 'Beginner', 
       proficiency: 82, 
-      projects: 8,
-      experience: '2+ years',
+      // projects: 8,
+      experience: '1+ years',
       icon: '💚',
       description: 'Vue 3 composition API, Pinia state management, and modern Vue ecosystem'
     },
@@ -80,28 +80,28 @@ const Skills = () => {
       category: 'backend', 
       level: 'Advanced', 
       proficiency: 85, 
-      projects: 15,
-      experience: '3+ years',
+      // projects: 15,
+      experience: '1+ years',
       icon: '🐍',
       description: 'Django, FastAPI, data processing, automation, and machine learning integration'
     },
-    { 
-      name: 'GraphQL', 
-      category: 'backend', 
-      level: 'Advanced', 
-      proficiency: 78, 
-      projects: 10,
-      experience: '2+ years',
-      icon: '📊',
-      description: 'Schema design, Apollo Server, federation, and real-time subscriptions'
-    },
+    // { 
+    //   name: 'GraphQL', 
+    //   category: 'backend', 
+    //   level: 'Advanced', 
+    //   proficiency: 78, 
+    //   projects: 10,
+    //   experience: '2+ years',
+    //   icon: '📊',
+    //   description: 'Schema design, Apollo Server, federation, and real-time subscriptions'
+    // },
     { 
       name: 'Express.js', 
       category: 'backend', 
       level: 'Expert', 
       proficiency: 93, 
-      projects: 22,
-      experience: '4+ years',
+      // projects: 22,
+      experience: '1+ years',
       icon: '🚀',
       description: 'RESTful APIs, middleware architecture, authentication, and performance optimization'
     },
@@ -112,18 +112,18 @@ const Skills = () => {
       category: 'database', 
       level: 'Expert', 
       proficiency: 87, 
-      projects: 16,
-      experience: '3+ years',
+      // projects: 16,
+      experience: '1+ years',
       icon: '🍃',
       description: 'Document modeling, aggregation pipelines, indexing strategies, and Atlas deployment'
     },
     { 
-      name: 'PostgreSQL', 
+      name: 'MYSQL', 
       category: 'database', 
-      level: 'Advanced', 
+      level: 'Beginner', 
       proficiency: 83, 
-      projects: 12,
-      experience: '3+ years',
+      // projects: 12,
+      experience: '1+ years',
       icon: '🐘',
       description: 'Complex queries, performance tuning, stored procedures, and database optimization'
     },
@@ -132,8 +132,8 @@ const Skills = () => {
       category: 'database', 
       level: 'Intermediate', 
       proficiency: 75, 
-      projects: 8,
-      experience: '2+ years',
+      // projects: 8,
+      experience: '1+ years',
       icon: '🔴',
       description: 'Caching strategies, session management, pub/sub patterns, and performance optimization'
     },
@@ -142,10 +142,10 @@ const Skills = () => {
     { 
       name: 'JavaScript', 
       category: 'languages', 
-      level: 'Expert', 
+      level: 'intermediate', 
       proficiency: 95, 
-      projects: 40,
-      experience: '5+ years',
+      // projects: 40,
+      experience: '1+ years',
       featured: true,
       icon: '🟨',
       description: 'ES6+, async patterns, functional programming, and modern JavaScript ecosystem'
@@ -155,64 +155,64 @@ const Skills = () => {
       category: 'languages', 
       level: 'Intermediate', 
       proficiency: 72, 
-      projects: 6,
-      experience: '2+ years',
+      // projects: 6,
+      experience: '1+ years',
       icon: '☕',
       description: 'Spring Boot, enterprise patterns, and object-oriented design principles'
     },
-    { 
-      name: 'Go', 
-      category: 'languages', 
-      level: 'Intermediate', 
-      proficiency: 68, 
-      projects: 4,
-      experience: '1+ years',
-      icon: '🔵',
-      description: 'Concurrent programming, microservices, and performance-critical applications'
-    },
+    // { 
+    //   name: 'Go', 
+    //   category: 'languages', 
+    //   level: 'Intermediate', 
+    //   proficiency: 68, 
+    //   projects: 4,
+    //   experience: '1+ years',
+    //   icon: '🔵',
+    //   description: 'Concurrent programming, microservices, and performance-critical applications'
+    // },
     
     // Tools & DevOps
     { 
       name: 'Docker', 
       category: 'tools', 
-      level: 'Advanced', 
+      level: 'Beginner', 
       proficiency: 80, 
-      projects: 14,
-      experience: '3+ years',
+      // projects: 14,
+      experience: '1+ years',
       icon: '🐋',
       description: 'Containerization, multi-stage builds, orchestration, and production deployment'
     },
-    { 
-      name: 'AWS', 
-      category: 'tools', 
-      level: 'Advanced', 
-      proficiency: 76, 
-      projects: 11,
-      experience: '2+ years',
-      icon: '☁️',
-      description: 'EC2, S3, Lambda, RDS, CloudFormation, and serverless architecture'
-    },
+    // { 
+    //   name: 'AWS', 
+    //   category: 'tools', 
+    //   level: 'Advanced', 
+    //   proficiency: 76, 
+    //   projects: 11,
+    //   experience: '2+ years',
+    //   icon: '☁️',
+    //   description: 'EC2, S3, Lambda, RDS, CloudFormation, and serverless architecture'
+    // },
     { 
       name: 'Git', 
       category: 'tools', 
-      level: 'Expert', 
+      level: 'intermediate', 
       proficiency: 94, 
-      projects: 50,
+      // projects: 50,
       experience: '5+ years',
       featured: true,
       icon: '🌿',
       description: 'Advanced workflows, CI/CD integration, branching strategies, and team collaboration'
     },
-    { 
-      name: 'Kubernetes', 
-      category: 'tools', 
-      level: 'Intermediate', 
-      proficiency: 65, 
-      projects: 5,
-      experience: '1+ years',
-      icon: '⚙️',
-      description: 'Container orchestration, service mesh, and cloud-native deployment patterns'
-    }
+    // { 
+    //   name: 'Kubernetes', 
+    //   category: 'tools', 
+    //   level: 'Intermediate', 
+    //   proficiency: 65, 
+    //   projects: 5,
+    //   experience: '1+ years',
+    //   icon: '⚙️',
+    //   description: 'Container orchestration, service mesh, and cloud-native deployment patterns'
+    // }
   ];
 
   const categories = [
@@ -317,7 +317,7 @@ const Skills = () => {
           {/* Stats */}
           <div className="flex flex-wrap justify-center gap-8 mb-8">
             <div className="text-center">
-              <div className="text-3xl font-bold text-emerald-400">{stats.totalProjects}+</div>
+              <div className="text-3xl font-bold text-emerald-400">5+</div>
               <div className="text-sm text-slate-400">Projects Completed</div>
             </div>
             <div className="text-center">
